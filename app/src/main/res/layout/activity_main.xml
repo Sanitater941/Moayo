@@ -92,6 +92,7 @@
                 </LinearLayout>
 
                 <!-- 두 번째 페이지. 쇼핑 -->
+                <!--쇼핑앱 버튼-->
                 <LinearLayout
                     android:id="@+id/Shopping"
                     android:layout_width="match_parent"
