@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scrollView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TabHost
+        android:id="@+id/tabHost1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <!-- TabWidget의 id값이 반드시 "tabs"로 지정되어야 함. -->
+            <TabWidget
+                android:id="@android:id/tabs"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <!-- FrameLayout의 id값이 반드시 "tabcontent"로 지정되어야 함. -->
+            <FrameLayout
+                android:id="@android:id/tabcontent"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <!-- 첫 번째 페이지. 배달 -->
+                <LinearLayout
+                    android:id="@+id/Derlivery"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <Button
+                        android:id="@+id/btnBaemin"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:drawableTop="@drawable/baemin"
+                        android:text="배달의 민족" />
+                    <!--    배달의 민족은 웹주문이 불가하므로 추후 버튼 제거할지 고려-->
+
+                    <Button
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/btnYogiyo"
+                        android:text="요기요"
+                        android:drawableTop="@drawable/yogiyo"
+                        />
+
+                    <Button
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/btnBaedaltong"
+                        android:text="배달통"
+                        android:drawableTop="@drawable/baedaltong"
+                        />
+                    <!--    배달통은 웹주문이 불가하므로 추후 버튼 제거할지 고려-->
+
+                    <Button
+                        android:id="@+id/btnShuttleDelivery"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:drawableTop="@drawable/shuttledelivery"
+                        android:text="셔틀 딜리버리" />
+
+                    <Button
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/btnLotteEats"
+                        android:text="롯데이츠"
+                        android:drawableTop="@drawable/lotteeats"
+                        />
+
+                    <Button
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/btnMacdelivery"
+                        android:text="맥딜리버리"
+                        android:drawableTop="@drawable/macdelivery"
+                        />
+
+                    <Button
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/btnEnd"
+                        android:text="끝내기"
+                        />
+                </LinearLayout>
+
+                <!-- 두 번째 페이지. 쇼핑 -->
+                <LinearLayout
+                    android:id="@+id/Shopping"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <Button
+                        android:id="@+id/btnLotteMart"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="롯데마트"
+                        android:drawableTop="@drawable/lottemart"/>
+
+                    <Button
+                        android:id="@+id/btnEmartTraders"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="이마트 트레이더스"
+                        android:drawableTop="@drawable/emarttraders"
+                        />
+
+                    <Button
+                        android:id="@+id/btnCoupang"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="쿠팡"
+                        android:drawableTop="@drawable/coupang"
+                        />
+
+                    <Button
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/btnMarketKurly"
+                        android:text="마켓컬리"
+                        android:drawableTop="@drawable/marketkurly"
+                        />
+
+                    <Button
+                        android:id="@+id/btnElevenStreet"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="11번가"
+                        android:drawableTop="@drawable/elevenstreet"
+                        />
+
+                    <Button
+                        android:id="@+id/btnGmarket"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="G마켓"
+                        android:drawableTop="@drawable/gmarket"
+                        />
+
+                    <Button
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/btnEnd2"
+                        android:text="끝내기"
+                        />
+                </LinearLayout>
+            </FrameLayout>
+        </LinearLayout>
+        <ImageView
+            android:id="@+id/up_button"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="end|bottom"
+            android:layout_margin="10dp"
+            android:alpha="0.6"
+            android:src="@drawable/ic_up" />
+    </TabHost>
+</ScrollView>
