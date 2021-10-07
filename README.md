@@ -1,7 +1,7 @@
 # Moayo
 Bundle of Delivery Apps 
 
-● You can order Delivery food with out Download Delivery apps such as '모아요' or 'Coupang Eats'
+● You can order Delivery food without Download Delivery apps such as '모아요' or 'Coupang Eats'
 
 ● You have to sign in and log in Delivery app and order in Deliver app what you use
 
