@@ -1,6 +1,8 @@
 # Moayo
 Bundle of Delivery Apps 
 
+● I Develop this App, Because increasing order of Delivery food by Corona19 Virus
+
 ● You can order Delivery food without Download Delivery apps such as '모아요' or 'Coupang Eats'
 
 ● You have to sign in Delivery app and order in Deliver app what you use
