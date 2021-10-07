@@ -3,12 +3,16 @@
 
 ##Initial Screen
 
-![화면1](https://user-images.githubusercontent.com/73449937/136375771-d755dd40-f73b-493a-a1b5-dcad9801ef92.PNG)
+![1](https://user-images.githubusercontent.com/73449937/136376780-ce92af2b-c78b-43c1-ba5b-a455bd1194d8.PNG)
 
 ##Drag Down
 
-![화면2](https://user-images.githubusercontent.com/73449937/136375907-f78aece3-a766-4d22-9778-51e4df3c17e1.PNG)
+![2](https://user-images.githubusercontent.com/73449937/136376787-dcaf12d2-14d1-4786-965c-fc91703df920.PNG)
 
-##Click Button
+##Click '쇼핑' tab
 
-![화면3](https://user-images.githubusercontent.com/73449937/136375922-68fdc803-6b06-416b-9ba8-9291295a723f.PNG)
+![3](https://user-images.githubusercontent.com/73449937/136376789-93bfe125-bf4b-4fd6-a28f-7c9ee20c633c.PNG)
+
+##Click '요기요' Button
+![화면3](https://user-images.githubusercontent.com/73449937/136376960-0d481000-5d4e-4c34-b9d4-4b8965c00c04.PNG)
+
