@@ -18,5 +18,7 @@
 ![화면3](https://user-images.githubusercontent.com/73449937/136376960-0d481000-5d4e-4c34-b9d4-4b8965c00c04.PNG)
 
 ● You can order Delivery food with out Download Delivery apps such as '모아요' or 'Coupang Eats'
+
 ● You have to sign in and log in Delivery app and order in Deliver app what you use
-●
+
+● Enjoy :D
